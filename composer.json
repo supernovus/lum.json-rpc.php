@@ -21,6 +21,10 @@
     "lum/lum-test": "^2.1 || dev-master",
     "lum/lum-curl": "^1.0 || dev-master"
   },
+  "suggest":
+  {
+    "lum/lum-curl": "If you want to use the Curl transport"
+  },
   "autoload":
   {
     "psr-4":
